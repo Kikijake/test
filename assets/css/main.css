@@ -1,0 +1,158 @@
+*{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 1s;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: #dba573;
+}
+
+body{
+  background-color: #3E1D1D;
+}
+
+
+/* HOME */
+
+.home-banner-div:hover .home-banner,
+.home-banner-div:hover .home-banner-profile{
+  filter: opacity(50%) blur(2px);
+}
+
+  /* CLEAR MODE TOGGLE */
+  .home-banner-div:hover .click-to-see{
+    display: none;
+  }
+
+  .home-banner-div:hover .click-to-hide{
+    display: inline;
+  }
+  /* <--- END CLEAR MODE TOGGLE <---*/
+
+
+.home-banner-div:hover .home-banner-context{
+  right: 40%;
+}
+
+.home-banner{
+ border: #2b0000 solid 6px;
+}
+
+.home-banner-profile{
+  top:30px;
+  right: 50px;
+  background-color: #2b0000;
+  border: white solid 2px;
+  box-shadow: 0px 20px 20px black;
+}
+
+.click-to-hide{
+  display: none;
+}
+
+.home-banner-context{
+  color: white;
+  text-shadow:  1px 2px 3px #ED062C,2px 2px 3px black;
+  bottom: 5px;
+  right: 10px;
+}
+
+/* PROFILE DIV */
+.profile-div{
+  border: #dba573 solid 3px;
+  background-color:#2b0000;
+  color: white;
+  text-shadow: 1px 2px 3px #ED062C;
+}
+
+.profile-detail{
+  border: #dba573 solid 3px;
+}
+
+.profile-detail th{
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+/* EXPERIENCE */
+.exp-link-div{
+  background-color: #dba573;
+  border: #3E1D1D solid 3px;
+}
+
+.exp-link-div:hover {
+  border: #dba573 solid 3px;
+  background-color: #2b0000;
+}
+
+
+/* LOCAL CSS */
+.layer-t{
+  z-index: 3;
+}
+
+.layer-m{
+  z-index: 2;
+}
+
+.layer-b{
+  z-index: 1;
+}
+
+.table-bg-1{
+  background-color: #2b0000;
+}
+
+.table-bg-2{
+  background-color: #dba573;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+/* Reponsive Setting */
+
+@media screen and (max-width: 550px){
+  *{
+    font-size: 7px;
+  }
+
+}
+
+
+@media screen and (min-width: 550px){
+
+  *{
+    font-size: 13px;
+  }
+
+  
+
+}
+@media screen and (max-width: 700px){
+  .home-banner-profile{
+    top: 10px;
+    right: 20px;
+  }
+
+}
+@media screen and (min-width: 650px){
+  *{
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (min-width: 1300px){
+  *{
+    font-size: 20px;
+  }
+
+}
